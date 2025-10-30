@@ -1,9 +1,10 @@
 import "./../css/Home.css"
+import Slideshow from "./../components/Slideshow";
 
 const Home = () => {
     return (
         <div id = "home" className = "main-content">
-            <h1>Home</h1>
+            <Slideshow />
             
         </div>
 

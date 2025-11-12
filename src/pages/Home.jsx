@@ -1,13 +1,13 @@
-import "./../css/Home.css"
 import Slideshow from "./../components/Slideshow";
+import HouseList from "../components/HouseList";
+import "./../css/Home.css";
 
 const Home = () => {
     return (
-        <div id = "home" className = "main-content">
+        <main id="home" className="main-content">
             <Slideshow />
-            
-        </div>
-
+            <HouseList num="3" />
+        </main>
     );
 };
 
